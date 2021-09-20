@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    username: itslasher
+    password: 1408
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.1.80:3306/practice?serverTimezone=UTC
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: mysql
+    show-sql: true
+server:
+  port: 8083
